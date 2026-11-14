@@ -2,7 +2,7 @@
 
 Dashboard interativa desenvolvida para o desafio do Bootcamp de Data Analytics com Agentes de IA da DIO. O projeto transforma uma base de 100 vendas da Porsche em uma aplicação web interativa publicada no GitHub Pages.
 
-🔗 **Acesse a Dashboard Online:** https://github.io
+🔗 **Acesse a Dashboard Online:** https://guilhermecampos-data.github.io/porsche-dashboard/
 
 ---
 
