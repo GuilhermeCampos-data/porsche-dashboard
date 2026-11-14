@@ -6,14 +6,18 @@ Dashboard interativa desenvolvida para o desafio do Bootcamp de Data Analytics c
 
 ---
 
-## 🎯 Perguntas de Negócio Respondidas
+## 🎯 Perguntas de Negócio Escolhidas (e Por Quê)
 
-1. **Proporção Operacional (Vendas Reais):** Qual a relação entre veículos entregues (`Delivered`) frente aos pendentes, em trânsito ou cancelados?
-2. **Gargalos Geográficos:** Quais estados (`UF`) apresentam a maior taxa de cancelamento e qual o volume financeiro por região?
-3. **Perfil do Estoque (Novos vs. Seminovos):** Como as vendas se dividem entre veículos zero km (`0` milhas) e seminovos (`> 0` milhas)?
-4. **Mix de Produtos:** Qual o ranking dos modelos Porsche mais vendidos em volume?
-5. **Comportamento Financeiro:** Quais são as formas de pagamento mais utilizadas pelos clientes até as menos utilizadas?
-6. **Faturamento por Período e Validação de Datas:** Qual o valor total de vendas concretizadas dentro das datas válidas identificadas versus registros com data inválida (`INVALID`)?
+Para transformar a base de 100 vendas em uma ferramenta de decisão comercial, a dashboard foi construída para responder a 4 perguntas principais:
+
+1. **Qual é o modelo mais vendido?** (`01 / Product Mix`)
+   * **Por quê:** Identifica os veículos com maior saída em volume e faturamento, ajudando a direcionar o planejamento de estoque e as estratégias comerciais para os modelos de maior demanda.
+2. **Qual é a forma de pagamento mais utilizada?** (`02 / Payment Profile`)
+   * **Por quê:** Revela o perfil financeiro dos compradores (financiamento, à vista, leasing, etc.), permitindo alinhar condições comerciais e parcerias bancárias à preferência real dos clientes.
+3. **Entre carros 0 km (0 milhas) e seminovos, qual é a diferença de vendas?** (`03 / Vehicle Condition`)
+   * **Por quê:** Compara tanto o volume de unidades quanto a receita gerada entre veículos novos e usados, mostrando o peso de cada categoria no faturamento total e no ticket médio.
+4. **Qual é a porcentagem de compras canceladas comparado com as vendas confirmadas?** (`04 / Order Status`)
+   * **Por quê:** Mede a eficiência operacional do funil de vendas e o impacto das desistências na receita, permitindo investigar gargalos por modelo, estado ou forma de pagamento através dos filtros.
 
 ---
 
